@@ -23,6 +23,11 @@ namespace MyCore.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Index(string name)
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
